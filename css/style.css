@@ -1,0 +1,148 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #eeeeee;
+  font-family: Roboto,sans-serif;
+  font-size: 16px;
+}
+
+#inicio {
+  text-align: center;
+  color: #eeeeee;
+  user-select: none;
+}
+
+#frase {
+  visibility: hidden;
+  text-align: center;
+}
+
+section iframe {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+section button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Barra de Navegación */
+
+nav {
+  /* float: right; */
+  position: fixed;
+  top: 25%;
+  right: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul li {
+  flex-grow: 1;
+}
+
+nav ul li a {
+  display: block;
+  padding: 1em;
+  background-color: #eeeeee;
+  text-align: center;
+  margin-bottom: 0.2em;
+  text-decoration: none;
+  color: #000000;
+  width: 6em;
+  font-size: 12px;
+}
+
+nav ul li a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+nav ul li a i {
+  color: rgb(0, 155, 163);
+  width: 6em;
+}
+
+/* Fin Barra de Navegación */
+
+.container {
+  margin: 3em 15em 1em 15em;
+  background-color: #eeeeee;
+  border: solid 4px #fff;
+  border-radius: 3em;
+  min-width: 600px;
+}
+
+.container .block {
+  margin: 1em;
+  margin-bottom: 3em;
+}
+
+section {
+  margin: 1em;
+  padding: 1em 0 1em 0;
+  border-bottom: solid 0.1em rgb(255, 255, 255);
+}
+
+.block section img {
+  width: 200px;
+  display: block;
+  margin: auto;
+  border: solid 4px #009ba3;
+  border-radius: 100%;
+}
+
+section h1 {
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+section h5 {
+  font-size: 20px;
+  color: #009ba3;
+}
+
+section h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+
+p {
+  margin: 1em;
+}
+
+.social-media-links {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-media-links a {
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.social-media-links i {
+  color:#009ba3;
+  font-size: 40px;
+}
+
+footer {
+  padding: 1em;
+  text-align: center;
+  color: #1e1e1e;
+  font-size: 12px;
+  background: linear-gradient(#eeeeee, rgb(151, 151, 151));
+}
